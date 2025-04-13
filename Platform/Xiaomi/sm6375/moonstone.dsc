@@ -1,5 +1,5 @@
 [Defines]
-  VENDOR_NAME                    = Xiaomi
+  VENDOR_NAME                    = Motorola
   PLATFORM_NAME                  = moonstone
   PLATFORM_GUID                  = 28f1a3bf-193a-47e3-a7b9-5a435eaab2ee
   PLATFORM_VERSION               = 0.1
@@ -9,7 +9,7 @@
   BUILD_TARGETS                  = DEBUG|RELEASE
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = Platform/Qualcomm/sm6375/sm6375.fdf
-  DEVICE_DXE_FV_COMPONENTS       = Platform/Xiaomi/sm6375/moonstone.fdf.inc
+  DEVICE_DXE_FV_COMPONENTS       = Platform/Motorola/sm6375/moonstone.fdf.inc
 
   # Enable A/B Slot Environment
   AB_SLOTS_SUPPORT               = TRUE
@@ -26,8 +26,8 @@
   # Simple Init
   gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|268
 
-  gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"Xiaomi"
-  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"POCO X5 5G"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"Motorola"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"Moto G34 5G"
   gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"moonstone"
 
 # Produce the highest video mode in Shell and UiApp
